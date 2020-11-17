@@ -1,9 +1,11 @@
 .pitch {
     background-image: url(../../assets/images/footballpitch.jpg);
     background-size: 100% 100%;
-    height: 85vh;
+    height: 80vh;
     width: 95%;
     border: 2px solid black;
+    margin-bottom: 0.5vh;
+    padding: 0 5px;
 
     .teamOne, .teamTwo {
         height: 50%;

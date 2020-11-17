@@ -1,8 +1,9 @@
 .name {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 92%;
-  padding: 1vh 6%;
+  padding: 0.9vh 6%;
   margin: 3% 4%;
   background-color: white;
   border: 1px solid black;
@@ -10,5 +11,10 @@
   p {
     font-size: 16px;
     font-weight: bold;
+  }
+
+  .icon {
+    color: red;
+    font-size: 19px;
   }
 }

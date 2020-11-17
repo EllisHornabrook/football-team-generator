@@ -77,14 +77,14 @@ class App extends Component {
           onFormSubmit={this.handleSubmit}
           isLandingHidden={this.state.isLandingHidden}
         />
-        <GenerateTeams
-          generate={this.handleGenerate}
-          edit={this.handleEditTeam}
-          isLandingHidden={this.state.isLandingHidden}
-        />
         <Teams
           teamOne={this.state.teamOne}
           teamTwo={this.state.teamTwo}
+          isLandingHidden={this.state.isLandingHidden}
+        />
+        <GenerateTeams
+          generate={this.handleGenerate}
+          edit={this.handleEditTeam}
           isLandingHidden={this.state.isLandingHidden}
         />
       </div>

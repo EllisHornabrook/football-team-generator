@@ -23,15 +23,15 @@ class SubmitForm extends Component {
     } else {
       return (
         <form onSubmit={this.handleSubmit}>
-        <input 
-          type="text"
-          maxLength="11"
-          placeholder="Add Player"
-          value={this.state.entry}
-          onChange={(e) => this.setState({entry: e.target.value})}
-        />
-        <button>Add</button>
-      </form>
+          <input 
+            type="text"
+            maxLength="11"
+            placeholder="Enter Player"
+            value={this.state.entry}
+            onChange={(e) => this.setState({entry: e.target.value})}
+          />
+          <button className={styles.button}>Add</button>
+        </form>
       );
     }
   }

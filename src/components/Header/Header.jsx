@@ -15,7 +15,7 @@ class Header extends Component {
     if (this.props.isLandingHidden) {
       return (
         <div className={styles.header}>
-          <h1>Have a good game!</h1>
+          <h2>Enjoy the game!</h2>
         </div>
     )} else {
       return (
