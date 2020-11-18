@@ -23,3 +23,18 @@
     }
 }
 
+@media (min-height: 800px) {
+    .buttons {
+        font-size: 18px;
+        font-weight: bold;
+        padding: 6px 18px;
+        text-shadow: 0px 1px 1px #ffffff;
+        outline: none;
+    }
+}
+
+@media (min-width: 1000px) {
+    .btnContainer {
+        width: 40%;
+    }
+}

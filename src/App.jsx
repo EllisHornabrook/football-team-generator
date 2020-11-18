@@ -3,7 +3,7 @@ import './App.css';
 import Header from "./components/Header";
 import NameList from "./components/NameList";
 import SubmitForm from "./components/SubmitForm";
-import GenerateTeams from "./components/GenerateTeams";
+import Buttons from "./components/Buttons";
 import Teams from "./components/Teams"
 
 class App extends Component {
@@ -82,7 +82,7 @@ class App extends Component {
           teamTwo={this.state.teamTwo}
           isLandingHidden={this.state.isLandingHidden}
         />
-        <GenerateTeams
+        <Buttons
           generate={this.handleGenerate}
           edit={this.handleEditTeam}
           isLandingHidden={this.state.isLandingHidden}

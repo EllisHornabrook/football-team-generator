@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import styles from "./GenerateTeams.module.scss";
+import styles from "./Buttons.module.scss";
 
-class GenerateTeams extends Component {
+class Buttons extends Component {
   render() {
     if (this.props.isLandingHidden) {
       return (
@@ -19,4 +19,4 @@ class GenerateTeams extends Component {
   }
 }
 
-export default GenerateTeams;
+export default Buttons;

@@ -16,5 +16,20 @@
   .icon {
     color: red;
     font-size: 19px;
+    filter: drop-shadow(0 0 1px black)
+  }
+}
+
+@media (min-width: 1000px) {
+  .name {
+    padding: 1vh 6%;
+
+    p {
+      font-size: 24px;
+    }
+
+    .icon {
+      font-size: 26px;
+    }
   }
 }
