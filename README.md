@@ -7,4 +7,5 @@ I have plans to add advanced position options and the ability to decide team col
 
 - React JSX
 - Mobile First
+- OOP
 - SCSS
